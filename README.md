@@ -1,6 +1,13 @@
 # Multi-layer-Networks-with-Keras
 Implementing feedforward, multi-layer networks using MNIST and CIFAR-10 with Keras library
 
+### Requirements:
+* python3
+* numpy V1.18.2+
+* matplotlib V3.2.1+
+* scikit-learn
+* keras
+
 ### The goal of this repository?
 > My goal is to train a neural network (using Keras) to obtain > 90% accuracy on datasets: **MNIST** and **CIFAR-10**.
 
