@@ -19,6 +19,7 @@ from keras.optimizers import SGD
 import argparse
 
 # Construct the argument parse and parse the arguments
+# python kerasMNIST.py --output output/kerasMNIST.png, to run the python code from bash or terminal
 ap = argparse.ArgumentParser()
 ap.add_argument("-o", "--output", required=True, help="path to the output loss/accuracy plot")
 args = vars(ap.parse_args())

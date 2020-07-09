@@ -3,7 +3,7 @@ Implementing feedforward, multi-layer networks using MNIST and CIFAR-10 with Ker
 
 ### Requirements:
 * python3
-* numpy V1.18.2
+* numpy V1.19.2
 * matplotlib V3.2.1
 * scikit-learn V0.19.2
 * keras
