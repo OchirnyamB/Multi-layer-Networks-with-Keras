@@ -27,7 +27,7 @@ args = vars(ap.parse_args())
 print("[INFO] loading MNIST (full) dataset...")
 dataset = fetch_openml('mnist_784')
 
-# Scale the raw pixel intensifies to the rane [0. 1.0], then
+# Scale the raw pixel intensifies to the range [0. 1.0], then
 data = dataset.data.astype("float")/255.0
 # construct the training and testing splits, 75% for data and 25% for testing
 (trainX, testX, trainY, testY) = train_test_split(data, dataset.target, test_size=0.25)
