@@ -34,7 +34,7 @@ Implementing feedforward, multi-layer networks using MNIST and CIFAR-10 with Ker
 > Dataset consisting of 70,000 data points (7,000 examples per digit). Each data point is represented by a 784-d vector (flattened 28x28 images).
 
 ### CIFAR-10 Dataset:
-> Dataset consisting of 60,000 (32x32x32 RGB images) resulting in a feature vector dimensionality of 3072. It consists of 10 classes: _airplanes, automobiles, birds, cats, deer, dogs, frogs, horses, ships, and trucks_.
+> Dataset consisting of 60,000 (32x32x3 RGB images) resulting in a feature vector dimensionality of 3072. It consists of 10 classes: _airplanes, automobiles, birds, cats, deer, dogs, frogs, horses, ships, and trucks_.
 
 ### Evaluations of the Trained Networks:
 * Handwritten Digit Recognition: [92% Accuracy on average](output/kerasTrainingEval.txt)
