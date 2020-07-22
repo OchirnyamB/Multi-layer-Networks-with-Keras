@@ -42,7 +42,7 @@ Implementing feedforward, multi-layer networks using MNIST and CIFAR-10 with Ker
 ![kerasMNIST](/output/kerasMNIST.png)
 
 * CIFAR-10 Classification: [57% Accuracy on average](output/cifarTrainingEval.txt)
-    * Basic feedforward networks with strictly fully-connected layers are not suitable for challening image datasets. More advanced approach: Convolutational Neural Networks are needed.
+     * Basic feedforward networks with strictly fully-connected layers are not suitable for challening image datasets. More advanced approach: [Convolutational Neural Networks are needed](https://github.com/OchirnyamB/Convolutional-Neural-Network-Playground).
 ![kerasCIFAR10](/output/kerasCIFAR10.png)
 
 
